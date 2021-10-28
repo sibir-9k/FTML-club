@@ -32,7 +32,7 @@ img {
 /* Page-header */
 
 .head {
-  background: url(/img/background/bg-1.png) no-repeat;
+  background: url(./img/background/bg-1.png) no-repeat;
   background-size: cover;
 }
 .header-block {
@@ -192,7 +192,7 @@ img {
 /* Руководители */
 
 .lead {
-  background-image: url(/img/background/bg-2.png);
+  background-image: url(./img/background/bg-2.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 53px 0px 81px;
