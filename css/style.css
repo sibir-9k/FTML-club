@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+/* Общие стили */
+
+body {
+  width: auto;
+  font-family: "Raleway", "Roboto", sans-serif;
+  font-weight: normal;
+}
+.button {
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+  border-radius: 50px;
+  color: #ffffff;
+  vertical-align: middle;
+  appearance: none;
+  border: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.content-container {
+  margin: 0 auto;
+  width: 950px;
+}
+
+/* Page-header */
+
+.head {
+  background: url(/img/background/bg-1.png) no-repeat;
+  background-size: cover;
+}
+.header-block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 35px 0px 0px 0px;
+}
+.header-block * {
+  align-self: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.list-item {
+  display: inline;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 15px;
+  margin-right: 30px;
+}
+.list-item:last-child {
+  margin-right: 0;
+}
+
+/* Promo */
+
+.promo {
+  padding-top: 82px;
+}
+.promo .content-container {
+  display: flex;
+}
+.promo-block {
+  width: 473px;
+  height: 242px;
+  margin-bottom: 189px;
+}
+.promo-heading {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 110%;
+  color: #ffffff;
+  width: 473px;
+  height: 98px;
+  margin-bottom: 25px;
+}
+.promo-text {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 42px;
+}
+.promo-button {
+  padding: 17.5px 103px;
+  text-decoration: none;
+  margin-bottom: 189px;
+}
+.promo-image {
+  border-radius: 10px;
+  display: block;
+  height: 100%;
+}
+
+/* Для кого клуб */
+
+.question-block {
+  margin-bottom: 71px;
+}
+.question-heading {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 33px;
+  color: #ffffff;
+  margin-bottom: 21px;
+}
+.question-item {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  list-style-type: none;
+  margin-bottom: 16px;
+}
+.question-item img {
+  margin-right: 18px;
+}
+.question-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Motivation block */
+
+.motiv-block {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 43px;
+  color: #ffffff;
+  text-align: center;
+}
+.motiv-text {
+  font-family: Raleway;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  width: 706px;
+  background: linear-gradient(90.92deg, #c89afc -20.7%, #7c6afa 111.12%);
+  border-radius: 11px;
+  padding: 24px 16px;
+}
+
+/* Мероприятия */
+
+.activity {
+  background-size: cover;
+  background-color: #001134;
+  padding: 71px 0 95px;
+}
+.activity-block {
+  display: flex;
+  justify-content: space-between;
+}
+.activity-info {
+  width: 488px;
+  height: 189px;
+}
+.activity-heading {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 33px;
+  color: #ffffff;
+  margin-bottom: 44px;
+}
+.activity-text {
+  margin-bottom: 44.5px;
+  color: #ffffff;
+}
+
+/* Руководители */
+
+.lead {
+  background-image: url(/img/background/bg-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 53px 0px 81px;
+}
+.lead-block h2 {
+  margin-bottom: 73px;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 33px;
+  color: #ffffff;
+}
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+.slider-container {
+  overflow: hidden;
+}
+.slider-track {
+  display: flex;
+  transition: 0.2s;
+  margin-bottom: 94px;
+}
+.slider-item {
+  height: 260px;
+  width: 260px;
+  margin-right: 5px;
+}
+.slider-item:last-child {
+  margin-right: 0;
+}
+.slider-item img {
+  margin-bottom: 13px;
+  height: 260px;
+}
+.slider-item p {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.progress-bar {
+  width: 800px;
+  height: 5px;
+  border: 1px solid #7e33dc;
+  border-radius: 8px;
+}
+.prog-bar-inner {
+  width: 10%;
+  height: 100%;
+  background: #7e33dc;
+}
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+.slider-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-prev {
+  outline: none; /* Для синий ободки */
+  border: 0;
+  background: transparent;
+}
+.btn-next {
+  outline: none; /* Для синий ободки */
+  border: 0;
+  background: transparent;
+}
+
+/* Участники */
+
+.community {
+  background: #001134;
+}
+.community-list {
+  display: flex;
+  justify-content: space-around;
+}
+.community-block {
+  padding: 53px 0px 74px;
+}
+.community-header {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 110%;
+  /* identical to box height, or 33px */
+  color: #ffffff;
+  margin-bottom: 42px;
+}
+.community-item img {
+  margin-bottom: 19px;
+}
+.community-item p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Подвал */
+
+.footer {
+  background: #001134;
+}
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 0px 51px 0px;
+  align-items: center;
+}
+.footer-text {
+  width: 317px;
+  height: 66px;
+  margin-right: 129px;
+}
+.footer-text h2 {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 33px;
+  color: #ffffff;
+}
+.footer-button {
+  display: flex;
+  width: 501px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+.footer-button img {
+  margin-right: 29px;
+}
+.footer-button p {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
