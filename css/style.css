@@ -32,7 +32,7 @@ img {
 /* Page-header */
 
 .head {
-  background: url(../img/background/bg-1.png) no-repeat;
+  background: url(/img/background/bg-1.png) no-repeat;
   background-size: cover;
 }
 .header-block {
