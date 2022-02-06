@@ -334,6 +334,7 @@ img {
   justify-content: center;
   align-items: center;
   vertical-align: middle;
+  cursor: pointer;
 }
 .footer-button img {
   margin-right: 29px;
