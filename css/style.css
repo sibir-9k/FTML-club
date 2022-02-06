@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-style: normal;
 }
-
+html *{
+  font-family: Roboto;
+}
 /* Общие стили */
 
 body {
